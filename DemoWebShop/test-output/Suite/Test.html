@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 23 11:49:58 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>112 seconds (112179 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='search.TC_008.addToCart()'><b>addToCart</b><br>Test class: search.TC_008<br>Parameters: [Ljava.lang.String;@39851c5<br/>
+<a href="#Output-481952545" onClick='toggleBox("Output-481952545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-481952545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-481952545">
+Cellphone page is displayed successfully<br/>
+The smartphone is added successfully to cart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>search.TC_008@6ca8564a</td></tr>
+<tr>
+<td title='search.TC_009.addToCart()'><b>addToCart</b><br>Test class: search.TC_009<br>Parameters: [Ljava.lang.String;@2c7ad4f3<br/>
+<a href="#Output-335436727" onClick='toggleBox("Output-335436727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-335436727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-335436727">
+Jewelry page is displayed successfully<br/>
+4 product is displayed as per the selection<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>search.TC_009@50b472aa</td></tr>
+<tr>
+<td title='search.TC_001.addToTheProductToCart()'><b>addToTheProductToCart</b><br>Test class: search.TC_001<br>Parameters: [Ljava.lang.String;@698f4aa<br/>
+<a href="#Output-622043416" onClick='toggleBox("Output-622043416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-622043416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-622043416">
+searched product is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>search.TC_001@1139b2f3</td></tr>
+<tr>
+<td title='search.TC_002.addToTheProductToCart()'><b>addToTheProductToCart</b><br>Test class: search.TC_002<br>Parameters: [Ljava.lang.String;@3dda8a2e<br/>
+<a href="#Output-154146418" onClick='toggleBox("Output-154146418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154146418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154146418">
+Product name is entered successfully<br/>
+Invalid products are not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>search.TC_002@7a69b07</td></tr>
+<tr>
+<td title='search.TC_010.addToTheProductToCart()'><b>addToTheProductToCart</b><br>Test class: search.TC_010<br>Parameters: [Ljava.lang.String;@7c0de229<br/>
+<a href="#Output-1863346936" onClick='toggleBox("Output-1863346936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1863346936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1863346936">
+Proper error message is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>search.TC_010@31368b99</td></tr>
+<tr>
+<td title='search.TC_006.filterByPrice()'><b>filterByPrice</b><br>Test class: search.TC_006<br>Parameters: [Ljava.lang.String;@6aa6c17<br/>
+<a href="#Output-1371182382" onClick='toggleBox("Output-1371182382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1371182382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1371182382">
+Electronics page is displayed successfully<br/>
+Camera,photo page is displayed successfully<br/>
+The product is displayed displayed successfully under 500 price range<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>search.TC_006@50a638b5</td></tr>
+<tr>
+<td title='search.TC_007.filterByPrice()'><b>filterByPrice</b><br>Test class: search.TC_007<br>Parameters: [Ljava.lang.String;@4756e5cc<br/>
+<a href="#Output-162716758" onClick='toggleBox("Output-162716758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-162716758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-162716758">
+Electronics page is displayed successfully<br/>
+Camera,photo page is displayed successfully<br/>
+The product is displayed successfully over 500 price range<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>search.TC_007@1817d444</td></tr>
+<tr>
+<td title='search.TC_004.placeholder()'><b>placeholder</b><br>Test class: search.TC_004<br>Parameters: [Ljava.lang.String;@2e349cf2<br/>
+<a href="#Output-1429007847" onClick='toggleBox("Output-1429007847", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1429007847" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1429007847">
+Placeholder is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>search.TC_004@3f197a46</td></tr>
+<tr>
+<td title='search.TC_005.placeholder()'><b>placeholder</b><br>Test class: search.TC_005<br>Parameters: [Ljava.lang.String;@3dbb3fb7<br/>
+<a href="#Output-269132593" onClick='toggleBox("Output-269132593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-269132593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-269132593">
+Placeholder is disappeared<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>search.TC_005@636be97c</td></tr>
+<tr>
+<td title='search.TC_003.sortByDropDown()'><b>sortByDropDown</b><br>Test class: search.TC_003<br>Parameters: [Ljava.lang.String;@68a426c3</td>
+<td></td>
+<td>1</td>
+<td>search.TC_003@5e82df6a</td></tr>
+</table><p>
+</body>
+</html>
